@@ -32,7 +32,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "report": {
+      "type": "belongsTo",
+      "model": "Report",
+      "foreignKey": "reportId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

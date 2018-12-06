@@ -35,6 +35,14 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "alerts": {
+      "type": "hasMany",
+      "model": "Alert",
+      "foreignKey": "reportId",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],
