@@ -1,25 +1,17 @@
 {
-  "name": "React",
+  "name": "Attention",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "organizacion": {
-      "type": "string",
+    "reactId": {
+      "type": "number",
       "required": true
     },
-    "email": {
-      "type": "string",
-      "required": true
-    },
-    "telefono": {
-      "type": "string",
-      "required": true
-    },
-    "activa": {
-      "type": "boolean",
+    "alertId": {
+      "type": "number",
       "required": true
     },
     "created_at": {
@@ -33,14 +25,21 @@
   },
   "validations": [],
   "relations": {
-    "alerts": {
-      "type": "hasMany",
+    "alert": {
+      "type": "belongsTo",
       "model": "Alert",
       "foreignKey": "alertId",
       "options": {
         "nestRemoting": true
-      },
-      "through": "Attention"
+      }
+    },
+    "react": {
+      "type": "belongsTo",
+      "model": "React",
+      "foreignKey": "reactId",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],

@@ -54,5 +54,9 @@
   "React": {
     "dataSource": "db",
     "public": true
+  },
+  "Attention": {
+    "dataSource": "db",
+    "public": true
   }
 }

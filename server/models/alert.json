@@ -40,6 +40,15 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "reacts": {
+      "type": "hasAndBelongsToMany",
+      "model": "React",
+      "foreignKey": "reactId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "Attention"
     }
   },
   "acls": [],
