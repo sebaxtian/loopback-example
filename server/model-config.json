@@ -14,29 +14,29 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "dbauth"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "dbauth",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "dbauth",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "dbauth",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "dbauth",
     "public": false
   },
   "Customer": {
-    "dataSource": "db",
+    "dataSource": "dbauth",
     "public": true
   },
   "Guard": {

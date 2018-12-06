@@ -3,5 +3,10 @@
     "name": "db",
     "connector": "memory",
     "file": "./data/db.json"
+  },
+  "dbauth": {
+    "name": "dbauth",
+    "connector": "memory",
+    "file": "./data/dbauth.json"
   }
 }
