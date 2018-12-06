@@ -27,7 +27,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "guard": {
+      "type": "belongsTo",
+      "model": "Guard",
+      "foreignKey": "guardId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
