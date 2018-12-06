@@ -34,7 +34,7 @@
   "validations": [],
   "relations": {
     "alerts": {
-      "type": "hasMany",
+      "type": "hasAndBelongsToMany",
       "model": "Alert",
       "foreignKey": "alertId",
       "options": {
