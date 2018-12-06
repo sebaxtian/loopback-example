@@ -1,0 +1,30 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Customer": 2,
+    "Guard": 1,
+    "Report": 1,
+    "Alert": 1,
+    "React": 1,
+    "Attention": 1
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Customer": {
+      "1": "{\"nombres\":\"John\",\"apellidos\":\"Doe\",\"activo\":true,\"created_at\":\"2018-12-06T03:37:48.637Z\",\"updated_at\":\"2018-12-06T03:37:48.637Z\",\"password\":\"$2a$10$/KRvcfkMKJQQIo9PU3kTTuEaI/oJzyPMOITzP/fc7z0mvXSITOB.u\",\"email\":\"johndoe@mail.com\",\"id\":1}"
+    },
+    "Guard": {},
+    "Report": {},
+    "Alert": {},
+    "React": {},
+    "Attention": {}
+  }
+}
