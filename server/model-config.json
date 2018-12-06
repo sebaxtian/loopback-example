@@ -34,5 +34,25 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Customer": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Guard": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Report": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Alert": {
+    "dataSource": "db",
+    "public": true
+  },
+  "React": {
+    "dataSource": "db",
+    "public": true
   }
 }
